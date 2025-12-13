@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dunkellila Kreis-Hintergrund -->
+  <circle cx="36" cy="36" r="34" fill="#7C3AED"/>
+  
+  <!-- Text über 3 Zeilen (größer, weiter oben) -->
+  <text x="36" y="24" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">tell</text>
+  <text x="36" y="40" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">what</text>
+  <text x="36" y="56" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">to do</text>
+</svg>
