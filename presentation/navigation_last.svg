@@ -1,0 +1,15 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <!-- Vertical slide representation -->
+  <rect x="40" y="18" width="20" height="36" rx="2" fill="#2c3e50" stroke="#ecf0f1" stroke-width="2"/>
+  
+  <!-- Other slides as white rectangles above -->
+  <rect x="42" y="20" width="16" height="6" rx="1" fill="#ecf0f1"/>
+  <rect x="42" y="28" width="16" height="6" rx="1" fill="#ecf0f1"/>
+  <rect x="42" y="36" width="16" height="6" rx="1" fill="#ecf0f1"/>
+  
+  <!-- Red indicator at bottom (last slide) -->
+  <rect x="42" y="44" width="16" height="6" rx="1" fill="#e74c3c"/>
+  
+  <!-- Left-pointing arrow at red bar height -->
+  <path d="M32 47 L20 41 L20 45 L12 45 L12 49 L20 49 L20 53 Z" fill="#e74c3c"/>
+</svg>

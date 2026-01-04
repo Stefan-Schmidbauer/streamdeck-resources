@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 72 72"
+   version="1.1"
+   id="svg48"
+   sodipodi:docname="workspace_chat.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs52" />
+  <sodipodi:namedview
+     id="namedview50"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="18.541911"
+     inkscape:cx="37.536584"
+     inkscape:cy="42.498316"
+     inkscape:window-width="3840"
+     inkscape:window-height="2128"
+     inkscape:window-x="2560"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg48" />
+  <!-- Titelleiste (dunkelgrau) -->
+  <rect
+     x="8"
+     y="6"
+     width="56"
+     height="8"
+     rx="3"
+     fill="#34495e"
+     id="rect2" />
+  <rect
+     x="8"
+     y="12"
+     width="56"
+     height="2"
+     fill="#34495e"
+     id="rect4" />
+  <!-- Fensterbuttons (standard Farben, links positioniert) -->
+  <circle
+     cx="14"
+     cy="10"
+     r="1.5"
+     fill="#f39c12"
+     id="circle6" />
+  <circle
+     cx="18"
+     cy="10"
+     r="1.5"
+     fill="#2ecc71"
+     id="circle8" />
+  <circle
+     cx="22"
+     cy="10"
+     r="1.5"
+     fill="#3498db"
+     id="circle10" />
+  <!-- User message bubble -->
+  <rect
+     x="16"
+     y="18"
+     width="24"
+     height="8"
+     rx="4"
+     fill="#3498db"
+     id="rect12" />
+  <path
+     d="m 16.431456,20.867428 -4,2 h 4 z"
+     fill="#3498db"
+     id="path14" />
+  <rect
+     x="18"
+     y="20"
+     width="16"
+     height="1.5"
+     fill="#ffffff"
+     id="rect16" />
+  <rect
+     x="18"
+     y="22"
+     width="12"
+     height="1.5"
+     fill="#ffffff"
+     id="rect18" />
+  <!-- AI/Bot response bubble -->
+  <rect
+     x="32"
+     y="30"
+     width="26"
+     height="10"
+     rx="4"
+     fill="#2ecc71"
+     id="rect20" />
+  <path
+     d="m 57.73034,34 3.702883,2 H 57.73034 Z"
+     fill="#2ecc71"
+     id="path22"
+     style="stroke-width:1.36068" />
+  <rect
+     x="34"
+     y="32"
+     width="18"
+     height="1.5"
+     fill="#ffffff"
+     id="rect24" />
+  <rect
+     x="34"
+     y="34"
+     width="20"
+     height="1.5"
+     fill="#ffffff"
+     id="rect26" />
+  <rect
+     x="34"
+     y="36"
+     width="14"
+     height="1.5"
+     fill="#ffffff"
+     id="rect28" />
+  <!-- AI indicator -->
+  <circle
+     cx="48"
+     cy="20"
+     r="3"
+     fill="#f39c12"
+     id="circle30" />
+  <text
+     x="48"
+     y="21.5"
+     fill="#ffffff"
+     font-family="sans-serif"
+     font-size="4"
+     font-weight="bold"
+     text-anchor="middle"
+     id="text32">AI</text>
+  <!-- Typing indicator -->
+  <circle
+     cx="18"
+     cy="46"
+     r="1"
+     fill="#ecf0f1"
+     id="circle34" />
+  <circle
+     cx="22"
+     cy="46"
+     r="1"
+     fill="#ecf0f1"
+     id="circle36" />
+  <circle
+     cx="26"
+     cy="46"
+     r="1"
+     fill="#ecf0f1"
+     id="circle38" />
+  <!-- Chat interface elements -->
+  <rect
+     x="14"
+     y="44"
+     width="30"
+     height="3"
+     rx="1"
+     fill="#ecf0f1"
+     id="rect40" />
+  <rect
+     x="46"
+     y="44"
+     width="8"
+     height="3"
+     rx="1"
+     fill="#2ecc71"
+     id="rect42" />
+  <path
+     d="M48 44.5 L50 45.5 L48 46.5 Z"
+     fill="#ffffff"
+     id="path44" />
+  <!-- Äußerer Rahmen (IMMER als letztes Element!) -->
+  <rect
+     x="8"
+     y="6"
+     width="56"
+     height="44"
+     rx="3"
+     fill="none"
+     stroke="#ecf0f1"
+     stroke-width="2"
+     id="rect46" />
+</svg>

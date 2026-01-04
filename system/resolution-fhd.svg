@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72">
+  <!-- Blauer Kreis-Hintergrund -->
+  <circle cx="36" cy="36" r="34" fill="#3B82F6"/>
+
+  <!-- Monitor-Rahmen (etwas kleiner) -->
+  <rect x="16" y="20" width="40" height="26" rx="2" ry="2"
+        fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <!-- Monitor-Standfuß -->
+  <line x1="36" y1="46" x2="36" y2="52"
+        stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="52" x2="44" y2="52"
+        stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- "FHD" Text -->
+  <text x="36" y="36"
+        font-family="Arial, sans-serif"
+        font-size="12"
+        font-weight="700"
+        text-anchor="middle"
+        fill="#FFFFFF">FHD</text>
+
+  <!-- "1080p" kleiner Text darunter -->
+  <text x="36" y="42"
+        font-family="Arial, sans-serif"
+        font-size="7"
+        font-weight="400"
+        text-anchor="middle"
+        fill="#FFFFFF"
+        opacity="0.9">1920×1080</text>
+</svg>

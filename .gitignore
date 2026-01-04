@@ -1,14 +1,9 @@
-# Directories to ignore
+# Project specific
 blog/
+
+# Development
 .devcontainer/
 .claude/
-reserve/
-
-# General files
-.DS_Store
-*.log
-*.tmp
-*~
 
 # IDE
 .vscode/
@@ -16,37 +11,8 @@ reserve/
 *.swp
 *.swo
 
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv/
-*.egg-info/
-dist/
-build/
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# OS generated files
+# OS generated
+.DS_Store
 Thumbs.db
 Desktop.ini
-
-# Build outputs
-*.o
-*.a
-*.out
-*.exe
+*~

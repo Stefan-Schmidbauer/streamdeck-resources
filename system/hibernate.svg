@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <!-- Hintergrund-Kreis -->
+  <circle cx="12" cy="12" r="11.4" fill="#26C6DA"/>
+  
+  <!-- Schneeflocke in weiß -->
+  <g stroke="#FFFFFF" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 6 Hauptarme vom Zentrum nach außen -->
+    <!-- Oben -->
+    <line x1="12" y1="12" x2="12" y2="5"/>
+    <!-- Unten -->
+    <line x1="12" y1="12" x2="12" y2="19"/>
+    <!-- Links -->
+    <line x1="12" y1="12" x2="5" y2="12"/>
+    <!-- Rechts -->
+    <line x1="12" y1="12" x2="19" y2="12"/>
+    <!-- Diagonal oben-links nach unten-rechts -->
+    <line x1="12" y1="12" x2="6.8" y2="6.8"/>
+    <line x1="12" y1="12" x2="17.2" y2="17.2"/>
+    <!-- Diagonal oben-rechts nach unten-links -->
+    <line x1="12" y1="12" x2="17.2" y2="6.8"/>
+    <line x1="12" y1="12" x2="6.8" y2="17.2"/>
+    
+    <!-- Seitenäste - Oben -->
+    <line x1="12" y1="6.5" x2="10.8" y2="7.7"/>
+    <line x1="12" y1="6.5" x2="13.2" y2="7.7"/>
+    
+    <!-- Seitenäste - Unten -->
+    <line x1="12" y1="17.5" x2="10.8" y2="16.3"/>
+    <line x1="12" y1="17.5" x2="13.2" y2="16.3"/>
+    
+    <!-- Seitenäste - Links -->
+    <line x1="6.5" y1="12" x2="7.7" y2="10.8"/>
+    <line x1="6.5" y1="12" x2="7.7" y2="13.2"/>
+    
+    <!-- Seitenäste - Rechts -->
+    <line x1="17.5" y1="12" x2="16.3" y2="10.8"/>
+    <line x1="17.5" y1="12" x2="16.3" y2="13.2"/>
+    
+    <!-- Seitenäste - Diagonal oben-links -->
+    <line x1="8.5" y1="8.5" x2="9.3" y2="7.7"/>
+    <line x1="8.5" y1="8.5" x2="7.7" y2="9.3"/>
+    
+    <!-- Seitenäste - Diagonal unten-rechts -->
+    <line x1="15.5" y1="15.5" x2="14.7" y2="16.3"/>
+    <line x1="15.5" y1="15.5" x2="16.3" y2="14.7"/>
+    
+    <!-- Seitenäste - Diagonal oben-rechts -->
+    <line x1="15.5" y1="8.5" x2="14.7" y2="7.7"/>
+    <line x1="15.5" y1="8.5" x2="16.3" y2="9.3"/>
+    
+    <!-- Seitenäste - Diagonal unten-links -->
+    <line x1="8.5" y1="15.5" x2="7.7" y2="14.7"/>
+    <line x1="8.5" y1="15.5" x2="9.3" y2="16.3"/>
+    
+    <!-- Kleiner Kreis im Zentrum -->
+    <circle cx="12" cy="12" r="0.8" fill="#FFFFFF"/>
+  </g>
+</svg>

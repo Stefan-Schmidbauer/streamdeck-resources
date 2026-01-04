@@ -1,0 +1,54 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect x="0" y="0" width="72" height="72" fill="#000000"/>
+  
+  <!-- Desktop pattern -->
+  <circle cx="12" cy="12" r="2" fill="#2c3e50" opacity="0.3"/>
+  <circle cx="60" cy="15" r="2" fill="#2c3e50" opacity="0.3"/>
+  <circle cx="15" cy="55" r="2" fill="#2c3e50" opacity="0.3"/>
+  <circle cx="58" cy="58" r="2" fill="#2c3e50" opacity="0.3"/>
+  
+  <!-- Main window -->
+  <rect x="10" y="10" width="52" height="38" rx="3" fill="#2c3e50" stroke="#ecf0f1" stroke-width="2"/>
+  
+  <!-- Window title bar -->
+  <rect x="12" y="12" width="48" height="7" fill="#34495e"/>
+  
+  <!-- Window control buttons -->
+  <circle cx="56" cy="15.5" r="1.8" fill="#e74c3c"/>
+  <circle cx="51" cy="15.5" r="1.8" fill="#f39c12"/>
+  <circle cx="46" cy="15.5" r="1.8" fill="#2ecc71"/>
+  
+  <!-- Window content -->
+  <rect x="12" y="21" width="48" height="25" fill="#ecf0f1"/>
+  
+  <!-- Content elements -->
+  <rect x="16" y="25" width="20" height="2.5" rx="1" fill="#34495e"/>
+  <rect x="16" y="30" width="26" height="2" rx="0.5" fill="#95a5a6"/>
+  <rect x="16" y="34" width="24" height="2" rx="0.5" fill="#95a5a6"/>
+  <rect x="16" y="38" width="18" height="2" rx="0.5" fill="#95a5a6"/>
+  
+  <!-- Resize arrows in corners -->
+  <!-- Top-left arrow (inward) -->
+  <g transform="translate(13, 13)">
+    <path d="M 0 0 L 8 0 L 6 2.5 L 2.5 2.5 L 2.5 6 L 0 8 Z" fill="#e74c3c" stroke="#ffffff" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Top-right arrow (inward) -->
+  <g transform="translate(59, 13)">
+    <path d="M 0 0 L 0 8 L -2.5 6 L -2.5 2.5 L -6 2.5 L -8 0 Z" fill="#f39c12" stroke="#ffffff" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Bottom-left arrow (inward) - copy of top-right rotated -->
+  <g transform="translate(13, 45) rotate(180)">
+    <path d="M 0 0 L 0 8 L -2.5 6 L -2.5 2.5 L -6 2.5 L -8 0 Z" fill="#f39c12" stroke="#ffffff" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Bottom-right arrow (inward) -->
+  <g transform="translate(59, 45)">
+    <path d="M 0 0 L -8 0 L -6 -2.5 L -2.5 -2.5 L -2.5 -6 L 0 -8 Z" fill="#e74c3c" stroke="#ffffff" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Alt+F10 indicator -->
+  <text x="36" y="65" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Alt+F10</text>
+</svg>

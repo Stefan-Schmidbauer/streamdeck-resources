@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72">
+  <!-- Violetter Kreis-Hintergrund -->
+  <circle cx="36" cy="36" r="34" fill="#8B5CF6"/>
+
+  <!-- Monitor-Rahmen -->
+  <rect x="14" y="18" width="44" height="28" rx="2" ry="2"
+        fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <!-- Monitor-Standfuß -->
+  <line x1="36" y1="46" x2="36" y2="52"
+        stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="52" x2="44" y2="52"
+        stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- "MAX" Text -->
+  <text x="36" y="37"
+        font-family="Arial, sans-serif"
+        font-size="13"
+        font-weight="700"
+        text-anchor="middle"
+        fill="#FFFFFF">MAX</text>
+
+  <!-- Ecken-Symbole für "maximize" -->
+  <path d="M 17 21 L 17 24 M 17 21 L 20 21"
+        stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 55 21 L 55 24 M 55 21 L 52 21"
+        stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 17 43 L 17 40 M 17 43 L 20 43"
+        stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 55 43 L 55 40 M 55 43 L 52 43"
+        stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

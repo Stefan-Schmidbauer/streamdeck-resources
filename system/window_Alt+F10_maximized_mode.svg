@@ -1,0 +1,31 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <!-- Desktop background (minimal visible) -->
+  <rect x="0" y="0" width="72" height="72" fill="#34495e"/>
+  
+  <!-- Maximized window fills almost entire screen -->
+  <rect x="2" y="2" width="68" height="68" rx="3" fill="#2c3e50" stroke="#ecf0f1" stroke-width="2"/>
+  
+  <!-- Window title bar -->
+  <rect x="4" y="4" width="64" height="8" fill="#34495e"/>
+  
+  <!-- Window control buttons -->
+  <circle cx="64" cy="8" r="2" fill="#e74c3c"/>
+  <circle cx="58" cy="8" r="2" fill="#f39c12"/>
+  <circle cx="52" cy="8" r="2" fill="#2ecc71"/>
+  
+  <!-- Window content fills most of screen -->
+  <rect x="4" y="14" width="64" height="54" fill="#ecf0f1"/>
+  
+  <!-- Content elements -->
+  <rect x="8" y="18" width="24" height="3" rx="1" fill="#34495e"/>
+  <rect x="8" y="24" width="32" height="2" rx="1" fill="#95a5a6"/>
+  <rect x="8" y="28" width="28" height="2" rx="1" fill="#95a5a6"/>
+  <rect x="8" y="32" width="24" height="2" rx="1" fill="#95a5a6"/>
+  <rect x="8" y="36" width="30" height="2" rx="1" fill="#95a5a6"/>
+  <rect x="8" y="40" width="26" height="2" rx="1" fill="#95a5a6"/>
+  <rect x="8" y="44" width="22" height="2" rx="1" fill="#95a5a6"/>
+  
+  <!-- Alt+F10 indicator -->
+  <rect x="1" y="59" width="29" height="10" rx="1" fill="#27ae60"/>
+  <text x="15.5" y="66" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="white">Alt+F10</text>
+</svg>

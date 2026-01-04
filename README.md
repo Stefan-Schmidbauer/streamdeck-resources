@@ -4,32 +4,44 @@ A collection of custom icons, tools, and resources for Elgato Stream Deck.
 
 > **Note:** This is an independent community project and is not affiliated with or endorsed by Elgato.
 
-## Icons and Configuration
+## Icon Categories
 
-AI-generated icons designed for Stream Deck buttons, optimized for 72x72px button size and work well on both light and dark themes.
+All icons are provided as SVG files (72x72px viewBox) in modern flat design, optimized for dark backgrounds. SVG format ensures universal compatibility - use them directly or convert to PNG as needed (e.g., [OpenDeck](https://github.com/nekename/OpenDeck) automatically converts SVGs to PNGs).
 
-### Configuration Examples
+### [ai-work/](ai-work/)
+Icons for AI-assisted development workflows (Claude, Cursor, etc.) - number shortcuts, return variations, speech-to-text triggers, and prompt helpers.
 
-Suggested button configurations for OpenDeck (Linux).
+### [presentation/](presentation/)
+Navigation controls and presentation-specific tools - workspace switching, slide navigation, break indicators.
+
+### [sound/](sound/)
+Audio control icons - mute/unmute, volume controls, microphone toggles, and sound settings.
+
+### [system/](system/)
+System operations - screen resolution, window management, lock screen, hibernate, screen sharing.
+
+### [workspace/](workspace/)
+Workspace/application launcher icons with consistent window design - terminal, IDE, browser, database, chat, and more. See [workspace/workspace-icon-guide.md](workspace/workspace-icon-guide.md) for creating custom workspace icons.
+
+### [misc/](misc/)
+Organization and utility icons.
+
+> **For Contributors:** See [icon-style-guide-flat.md](icon-style-guide-flat.md) for design principles and color palette when creating new icons.
+
+## Configuration Examples
+
+Selected examples for [OpenDeck](https://github.com/nekename/OpenDeck) (Linux). Browse the icon folders for more options.
 
 **Requirements:** Some configurations require `xdotool` to be installed (`sudo apt install xdotool` on Debian/Ubuntu).
 
-**Note:** If you experience issues with Input Simulation, all key combinations can alternatively be implemented using `xdotool` via Run Command (e.g., `xdotool key 1` instead of `[Text("1")]`).
+**Note:** If you experience issues with Input Simulation, all key combinations can alternatively be implemented using `xdotool` via Run Command.
+
+### AI Workflow Examples
 
 | Name | Icon | Action Type | Configuration |
 |------|------|-------------|---------------|
-| 1 | **number-1.svg** | Input Simulation | `[Text("1")]` |
-| 2 | **number-2.svg** | Input Simulation | `[Text("2")]` |
-| 3 | **number-3.svg** | Input Simulation | `[Text("3")]` |
-| 4 | **number-4.svg** | Input Simulation | `[Text("4")]` |
-| tell what to do | **tell-what-to-do.svg** | Input Simulation | `[Key(UpArrow, Click)]` |
-| Sinus -> Aa | **speech2text.svg** | Input Simulation | Key down: `[Key(Control, Press), Key(Space, Press)]`<br>Key up: `[Key(Space, Release), Key(Control, Release)]` |
-| Sinus -> Aa + Return | **speech2text-return.svg** | Run Command | Key down: `xdotool keydown ctrl+space`<br>Key up: `xdotool keyup ctrl+space && sleep 1 && xdotool key Return` |
-| Return | **return.svg** | Input Simulation | Key down: `[Key(Return, Click)]` |
-| Shift + Return | **shift-return.svg** | Input Simulation | Key down: `[Key(Shift, Press), Key(Return, Click), Key(Shift, Release)]` |
-| Alt + Return | **alt-return.svg** | Input Simulation | Key down: `[Key(Alt, Press), Key(Return, Click), Key(Alt, Release)]` |
-
-_Note: These configurations are optimized for OpenDeck on Linux. Adjust to fit your workflow and software._
+| Sinus -> Aa | [speech2text.svg](ai-work/speech2text.svg) | Run Command | Key down: `xdotool keydown ctrl+space`<br>Key up: `xdotool keyup ctrl+space` |
+| Return | [return.svg](ai-work/return.svg) | Run Command | Key down: `xdotool key Return` |
 
 ## License
 

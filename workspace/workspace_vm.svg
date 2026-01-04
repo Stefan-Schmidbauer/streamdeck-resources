@@ -1,0 +1,33 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <!-- Titelleiste (dunkelgrau) -->
+  <rect x="8" y="6" width="56" height="8" rx="3" fill="#34495e"/>
+  <rect x="8" y="12" width="56" height="2" fill="#34495e"/>
+  
+  <!-- Fensterbuttons (standard Farben, links positioniert) -->
+  <circle cx="14" cy="10" r="1.5" fill="#f39c12"/>
+  <circle cx="18" cy="10" r="1.5" fill="#2ecc71"/>
+  <circle cx="22" cy="10" r="1.5" fill="#3498db"/>
+  
+  <!-- VM Container Stack -->
+  <rect x="20" y="18" width="32" height="18" rx="2" fill="#3498db"/>
+  <rect x="22" y="20" width="28" height="14" fill="#2c3e50"/>
+  
+  <!-- VM Instances -->
+  <rect x="24" y="22" width="6" height="3" rx="1" fill="#2ecc71"/>
+  <rect x="32" y="22" width="6" height="3" rx="1" fill="#2ecc71"/>
+  <rect x="40" y="22" width="6" height="3" rx="1" fill="#f39c12"/>
+  
+  <rect x="24" y="29" width="6" height="3" rx="1" fill="#2ecc71"/>
+  <rect x="32" y="29" width="6" height="3" rx="1" fill="#ecf0f1"/>
+  <rect x="40" y="29" width="6" height="3" rx="1" fill="#ecf0f1"/>
+  
+  <!-- Server/Host indicator -->
+  <rect x="26" y="40" width="20" height="6" rx="1" fill="#ecf0f1"/>
+  <rect x="28" y="42" width="2" height="2" fill="#2ecc71"/>
+  <rect x="32" y="42" width="2" height="2" fill="#2ecc71"/>
+  <rect x="36" y="42" width="2" height="2" fill="#3498db"/>
+  <rect x="40" y="42" width="2" height="2" fill="#3498db"/>
+  
+  <!-- Äußerer Rahmen (IMMER als letztes Element!) -->
+  <rect x="8" y="6" width="56" height="44" rx="3" fill="none" stroke="#ecf0f1" stroke-width="2"/>
+</svg>

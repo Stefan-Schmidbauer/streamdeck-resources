@@ -1,0 +1,35 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <!-- Titelleiste (dunkelgrau) -->
+  <rect x="8" y="6" width="56" height="8" rx="3" fill="#34495e"/>
+  <rect x="8" y="12" width="56" height="2" fill="#34495e"/>
+  
+  <!-- Fensterbuttons (standard Farben, links positioniert) -->
+  <circle cx="14" cy="10" r="1.5" fill="#f39c12"/>
+  <circle cx="18" cy="10" r="1.5" fill="#2ecc71"/>
+  <circle cx="22" cy="10" r="1.5" fill="#3498db"/>
+  
+  <!-- Whiteboard surface -->
+  <rect x="14" y="18" width="44" height="28" rx="2" fill="#ffffff"/>
+  
+  <!-- Simple geometric shapes -->
+  <!-- Circle -->
+  <circle cx="25" cy="26" r="4" fill="none" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- Rectangle -->
+  <rect x="37" y="22" width="12" height="8" rx="1" fill="none" stroke="#2ecc71" stroke-width="2"/>
+  
+  <!-- Triangle -->
+  <path d="M20 42 L28 42 L24 34 Z" fill="none" stroke="#f39c12" stroke-width="2"/>
+  
+  <!-- Arrow connecting shapes -->
+  <line x1="29" y1="26" x2="36" y2="26" stroke="#2c3e50" stroke-width="1.5"/>
+  <path d="M34 24.5 L36 26 L34 27.5" stroke="#2c3e50" stroke-width="1.5" fill="none"/>
+  
+  <!-- Simple text lines -->
+  <rect x="36" y="36" width="16" height="1" fill="#2c3e50"/>
+  <rect x="36" y="39" width="12" height="1" fill="#2c3e50"/>
+  <rect x="36" y="42" width="14" height="1" fill="#2c3e50"/>
+  
+  <!-- Äußerer Rahmen (IMMER als letztes Element!) -->
+  <rect x="8" y="6" width="56" height="44" rx="3" fill="none" stroke="#ecf0f1" stroke-width="2"/>
+</svg>

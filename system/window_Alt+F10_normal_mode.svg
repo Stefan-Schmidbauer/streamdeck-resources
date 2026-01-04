@@ -1,0 +1,35 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <!-- Desktop background -->
+  <rect x="0" y="0" width="72" height="72" fill="#34495e"/>
+  
+  <!-- Desktop pattern/texture -->
+  <circle cx="15" cy="15" r="2" fill="#2c3e50" opacity="0.3"/>
+  <circle cx="35" cy="25" r="2" fill="#2c3e50" opacity="0.3"/>
+  <circle cx="55" cy="15" r="2" fill="#2c3e50" opacity="0.3"/>
+  <circle cx="25" cy="45" r="2" fill="#2c3e50" opacity="0.3"/>
+  <circle cx="55" cy="55" r="2" fill="#2c3e50" opacity="0.3"/>
+  
+  <!-- Normal window frame -->
+  <rect x="20" y="25" width="40" height="32" rx="3" fill="#2c3e50" stroke="#ecf0f1" stroke-width="2"/>
+  
+  <!-- Window title bar -->
+  <rect x="22" y="27" width="36" height="6" fill="#34495e"/>
+  
+  <!-- Window control buttons -->
+  <circle cx="54" cy="30" r="1.5" fill="#e74c3c"/>
+  <circle cx="50" cy="30" r="1.5" fill="#f39c12"/>
+  <circle cx="46" cy="30" r="1.5" fill="#2ecc71"/>
+  
+  <!-- Window content -->
+  <rect x="22" y="35" width="36" height="20" fill="#ecf0f1"/>
+  
+  <!-- Content elements -->
+  <rect x="25" y="38" width="15" height="2" rx="1" fill="#34495e"/>
+  <rect x="25" y="42" width="20" height="1.5" rx="0.5" fill="#95a5a6"/>
+  <rect x="25" y="45" width="18" height="1.5" rx="0.5" fill="#95a5a6"/>
+  <rect x="25" y="48" width="12" height="1.5" rx="0.5" fill="#95a5a6"/>
+  
+  <!-- Alt+F10 indicator -->
+  <rect x="1" y="59" width="29" height="10" rx="1" fill="#e74c3c"/>
+  <text x="15.5" y="66" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="white">Alt+F10</text>
+</svg>

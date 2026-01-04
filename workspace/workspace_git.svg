@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 72 72"
+   version="1.1"
+   id="svg48"
+   sodipodi:docname="workspace_git.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs52" />
+  <sodipodi:namedview
+     id="namedview50"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="18.541911"
+     inkscape:cx="41.851134"
+     inkscape:cy="53.716146"
+     inkscape:window-width="3840"
+     inkscape:window-height="2128"
+     inkscape:window-x="2560"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg48" />
+  <!-- Titelleiste (dunkelgrau) -->
+  <rect
+     x="8"
+     y="6"
+     width="56"
+     height="8"
+     rx="3"
+     fill="#34495e"
+     id="rect2" />
+  <rect
+     x="8"
+     y="12"
+     width="56"
+     height="2"
+     fill="#34495e"
+     id="rect4" />
+  <!-- Fensterbuttons (standard Farben, links positioniert) -->
+  <circle
+     cx="14"
+     cy="10"
+     r="1.5"
+     fill="#f39c12"
+     id="circle6" />
+  <circle
+     cx="18"
+     cy="10"
+     r="1.5"
+     fill="#2ecc71"
+     id="circle8" />
+  <circle
+     cx="22"
+     cy="10"
+     r="1.5"
+     fill="#3498db"
+     id="circle10" />
+  <!-- Git branch visualization -->
+  <!-- Main branch line -->
+  <line
+     x1="20"
+     y1="19"
+     x2="20"
+     y2="43"
+     stroke="#ecf0f1"
+     stroke-width="2"
+     id="line12" />
+  <!-- Feature branch -->
+  <path
+     d="m 20,28 c 5.333333,0 9.626167,2.893964 12.292833,5.560631"
+     stroke="#3498db"
+     stroke-width="2"
+     fill="none"
+     id="path14"
+     sodipodi:nodetypes="cc" />
+  <line
+     x1="32"
+     y1="33.065968"
+     x2="32"
+     y2="38"
+     stroke="#3498db"
+     stroke-width="1.81366"
+     id="line16" />
+  <!-- Merge back to main -->
+  <path
+     d="M32 38 Q28 40 20 42"
+     stroke="#f39c12"
+     stroke-width="2"
+     fill="none"
+     id="path18" />
+  <!-- Commits on main branch -->
+  <circle
+     cx="20"
+     cy="20"
+     r="2"
+     fill="#2ecc71"
+     id="circle20" />
+  <circle
+     cx="20"
+     cy="28"
+     r="2"
+     fill="#2ecc71"
+     id="circle22" />
+  <circle
+     cx="20"
+     cy="42"
+     r="2"
+     fill="#2ecc71"
+     id="circle24" />
+  <!-- Commits on feature branch -->
+  <circle
+     cx="32"
+     cy="34"
+     r="2"
+     fill="#3498db"
+     id="circle26" />
+  <circle
+     cx="32"
+     cy="38"
+     r="2"
+     fill="#3498db"
+     id="circle28" />
+  <!-- Branch labels -->
+  <text
+     x="24"
+     y="22"
+     fill="#2ecc71"
+     font-family="monospace"
+     font-size="6"
+     id="text30">main</text>
+  <!-- Git status indicators -->
+  <rect
+     x="44"
+     y="20"
+     width="12"
+     height="4"
+     fill="#2ecc71"
+     id="rect32" />
+  <text
+     x="50"
+     y="23.5"
+     fill="#ffffff"
+     font-family="monospace"
+     font-size="4"
+     text-anchor="middle"
+     id="text34">+3</text>
+  <rect
+     x="44"
+     y="26"
+     width="12"
+     height="4"
+     fill="#f39c12"
+     id="rect36" />
+  <text
+     x="50"
+     y="29.5"
+     fill="#ffffff"
+     font-family="monospace"
+     font-size="4"
+     text-anchor="middle"
+     id="text38">M2</text>
+  <rect
+     x="44"
+     y="32"
+     width="12"
+     height="4"
+     fill="#e74c3c"
+     id="rect40" />
+  <text
+     x="50"
+     y="35.5"
+     fill="#ffffff"
+     font-family="monospace"
+     font-size="4"
+     text-anchor="middle"
+     id="text42">-1</text>
+  <text
+     x="36"
+     y="41"
+     fill="#3498db"
+     font-family="monospace"
+     font-size="6"
+     id="text44">feature</text>
+  <!-- Äußerer Rahmen (IMMER als letztes Element!) -->
+  <rect
+     x="8"
+     y="6"
+     width="56"
+     height="44"
+     rx="3"
+     fill="none"
+     stroke="#ecf0f1"
+     stroke-width="2"
+     id="rect46" />
+</svg>
